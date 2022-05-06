@@ -24,9 +24,12 @@ error_reporting(0);
 //$config['imap']['url'] = '{imap.gmail.com:993/ssl/novalidate-cert}[Gmail]/All Mail';
 //$config['imap']['url'] = '{imap.gmail.com:993/imap/ssl}INBOX';
 
-$config['imap']['url'] = '{imap.gmail.com:993/imap/ssl}';
-$config['imap']['username'] = "binhunt3r@gmail.com";
-$config['imap']['password'] = "agoon007";
+//$config['imap']['url'] = '{imap.gmail.com:993/imap/ssl}';
+//$config['imap']['username'] = "binhunt3r@gmail.com";
+//$config['imap']['password'] = "agoon007";
+$config['imap']['url'] = '{outlook.office365.com:993/imap/ssl}INBOX';
+$config['imap']['username'] = "disp0s0@outlook.com";
+$config['imap']['password'] = "baba123A*";
 
 // For gmail you can use '{imap.gmail.com:993/imap/ssl}INBOX'
 // and follow the troubleshooting at:
